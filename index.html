@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Drag Queen Name Generator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+  <div class="container" id="app">
+    <div class="row" id="title">
+      <div class="col-md-12 jumbotron text-center" id="jumbo">
+        <h1>Drag Queen Name Generator</h1>
+        <hr></hr>
+        <h2>Oh Honey!</h2>
+        <p>Have you always wanted to do drag but can't think of the right name?<br>
+          Well, now you don't have to!</p>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="col-md-12 justify-content-center">
+        <form NAME="WordForm">  
+          <input TYPE=text NAME="WordBox" id="wordbox"><br>
+          <button TYPE=BUTTON VALUE="Generate" id="button">
+            <span class="front" id="label">
+              Start Your Engines!
+            </span>
+          </button>
+        </form>  
+      </div>
+    </div>
+  </div>
+  <script src="static/js/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+</body>
+
+</html>

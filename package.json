@@ -1,0 +1,24 @@
+{
+  "name": "drag-queen-name-generator-final-project",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Using as many names of working drag queens from around the world, I've written an program to give the user a randomly generated drag name.",
+  "main": "app.js",
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxkrueger96/Drag-Queen-Name-Generator-Final-Project.git"
+  },
+  "author": "Max Krueger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxkrueger96/Drag-Queen-Name-Generator-Final-Project/issues"
+  },
+  "homepage": "https://github.com/maxkrueger96/Drag-Queen-Name-Generator-Final-Project#readme"
+}

@@ -1,0 +1,88 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #fff;
+    font-weight: 300;
+    background: url("/static/images/work-room.jpeg");
+    background-size: cover;
+  }
+
+  #jumbo {
+    color: rgb(46, 245, 255);
+    background: url("/static/images/all-stars-blue.png");
+    background-size: cover;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+  }
+
+  h1, h2, p {
+    color: rgb(46,245255);
+    text-align: center;
+    background:rgba(236,139,234,.8);
+    margin: auto;
+    width:max-content; 
+    padding: 10px;
+  }
+  form {
+    text-align: center;
+  }
+  
+  #wordbox {
+      /*opacity: 0;*/
+      margin: auto;
+      display: block;
+      width: max-content;
+      min-width: 400px;
+      height: 50px;
+      font-size: 30px;
+      text-align: center;
+      background: white;
+      border-radius: 6px;
+      transition: 1s linear;
+      color: black;
+    }
+/* 
+    #button {
+        background:    #ec8bea;
+        border-radius: 20px;
+        box-shadow:    6px 6px #68529b;
+        padding:       25px 50px;
+        color:         #7aced3;
+        display:       block;
+        cursor:        pointer;
+        margin:        0 auto 60px;
+        font:          normal bold 48px/1 "Droid Serif", serif;
+        text-align:    center;
+        text-shadow:   2px 2px #68529b;
+    } */
+    #button {
+      background: #68529b;
+      border: none;
+      border-radius: 12px;
+      padding: 0;
+      cursor: pointer;
+      outline-offset: 4px;
+      font-family: Verdana, Geneva, sans-serif;
+      width:max-content;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #label {
+      display: block;
+      width:max-content; 
+      padding: 12px 42px;
+      border-radius: 12px;
+      font-size: 36px;
+      background: #ec8bea;
+      color: rgb(46, 245, 255);
+      transform: translateY(-6px);
+          }
+    
+    #button:active .front {
+      transform: translateY(-2px);
+    }
+
+    #button:focus:not(:focus-visible) {
+      outline: none;
+    }
+    
