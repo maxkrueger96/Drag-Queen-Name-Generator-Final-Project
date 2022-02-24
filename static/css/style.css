@@ -2,13 +2,13 @@ body {
     font-family: Verdana, Geneva, sans-serif;
     color: #fff;
     font-weight: 300;
-    background: url("/static/images/work-room.jpeg");
+    background: url("../images/work-room.png");
     background-size: cover;
   }
 
   #jumbo {
     color: rgb(46, 245, 255);
-    background: url("/static/images/all-stars-blue.png");
+    background: url("../images/all-stars-blue.png");
     background-size: cover;
     border-width: 10px;
     border-color: black;
