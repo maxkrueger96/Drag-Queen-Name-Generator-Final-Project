@@ -16,9 +16,9 @@ body {
   }
 
   h1, h2, p {
-    color: rgb(46,245255);
+    color: #5ad2fe;
     text-align: center;
-    background:rgba(236,139,234,.8);
+    background:rgba(254, 90, 210,.4);
     margin: auto;
     width:max-content; 
     padding: 10px;
@@ -39,22 +39,10 @@ body {
       background: white;
       border-radius: 6px;
       transition: 1s linear;
-      color: black;
+      color: #fe5ad2;
+      background-color: #5ad2fe;
     }
-/* 
-    #button {
-        background:    #ec8bea;
-        border-radius: 20px;
-        box-shadow:    6px 6px #68529b;
-        padding:       25px 50px;
-        color:         #7aced3;
-        display:       block;
-        cursor:        pointer;
-        margin:        0 auto 60px;
-        font:          normal bold 48px/1 "Droid Serif", serif;
-        text-align:    center;
-        text-shadow:   2px 2px #68529b;
-    } */
+
     #button {
       background: #68529b;
       border: none;
@@ -73,8 +61,8 @@ body {
       padding: 12px 42px;
       border-radius: 12px;
       font-size: 36px;
-      background: #ec8bea;
-      color: rgb(46, 245, 255);
+      background:  #fe5ad2;
+      color: #5ad2fe;
       transform: translateY(-6px);
           }
     
