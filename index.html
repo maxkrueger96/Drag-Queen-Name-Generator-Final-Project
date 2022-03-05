@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -28,7 +29,7 @@
       <div class="col-md-12 justify-content-center">
         <form NAME="WordForm">  
           <input TYPE=text NAME="WordBox" id="wordbox"><br>
-          <button TYPE=BUTTON VALUE="Generate" id="button">
+          <button TYPE=BUTTON VALUE="Generate" id="button" onClick="chooseName()">
             <span class="front" id="label">
               Start Your Engines!
             </span>
@@ -37,7 +38,6 @@
       </div>
     </div>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
   <script src="static/js/app.js"></script>
 </body>
 
